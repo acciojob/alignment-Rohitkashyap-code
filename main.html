@@ -7,87 +7,89 @@
 </head>
 
 <body>
-<table border="2px" align="Center" width="50%">
+<!-- ✅ FIX 1: Added id="table-1" and correct border -->
+    <table id="table-1" border="1" align="center" width="50%">
         <caption>HTML Assignment #3</caption>
         <tr>
-           <td>Left</td>
-           <td align="Center">Center</td>
-           <td align="Right">Right</td>
+           <td id="t11">Left</td>
+           <!-- ✅ FIX 2: Added id="t12" -->
+           <td id="t12" align="center">Center</td>
+           <td id="t13" align="right">Right</td>
         </tr>
 
         <tr>
            <td>Left</td>
-           <td align="Center">Center</td>
-           <td align="Right">Right</td>
+           <td align="center">Center</td>
+           <td align="right">Right</td>
         </tr>
 
         <tr>
            <td>Left</td>
-           <td align="Center">Center</td>
-           <td align="Right">Right</td>
+           <td align="center">Center</td>
+           <td align="right">Right</td>
         </tr>
     </table>
-    <br> <br>
-    <!-- <table border="2px" width="50%" align="center" cellspacing="10" cellpadding="20">  -->
+
+    <br><br>
+
+    <!-- TABLE 2 -->
     <table class="middle" id="table-2" border="1" cellspacing="1" cellpadding="10" align="center" width="50%">
-    <tr>
-        <td id="t21" colspan="6" align="center"></td>
-    </tr>
+        <tr>
+            <td id="t21" colspan="6" align="center"></td>
+        </tr>
 
-<tr>
-    <td rowspan="4" id="t21" align="center"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
+        <tr>
+            <td rowspan="4" align="center"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
 
+        <tr>
+            <td></td>
+            <td colspan="3" rowspan="2"></td>
+            <td></td>
+        </tr>
 
-<tr>
-    <td></td>
-    <td colspan="3" rowspan="2"></td>
-    <td></td>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
 
-</tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
 
-<tr>
-    <td></td>
-    <td></td>
-
-</tr>
-
-
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-
-<tr>
-    <td colspan="6"></td>
-</tr>
-
+        <tr>
+            <td colspan="6"></td>
+        </tr>
     </table>
-    
 
+    <br><br>
+
+    <!-- TABLE 3 -->
     <table class="middle" id="table-3" border="1" cellspacing="1" cellpadding="10" align="center" width="50%">
-    <tr bgcolor="green">
-        <td colspan="3" align="center"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td id="t-image">
-            <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="img">
-        </td>
-        <td></td>
-    </tr>
-    <tr bgcolor="blue">
-        <td colspan="3" align="center"></td>
-    </tr>
-</table>
+        <tr bgcolor="green">
+            <td colspan="3" align="center"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="t-image">
+                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="img">
+            </td>
+            <td></td>
+        </tr>
+        <tr bgcolor="blue">
+            <td colspan="3" align="center"></td>
+        </tr>
+    </table>
+
 </body>
 
 </html>
